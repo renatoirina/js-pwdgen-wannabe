@@ -14,4 +14,5 @@ console.log ("Numero generato RANDOM: ", casualNumber);
 var password = name + surname + favouriteColor + casualNumber;
 console.log("Password infallibile generata: ", password);
 
-// VISUALIZZAZIONE
+// VISUALIZZAZIONE in HTML
+document.getElementById("output").innerHTML = password;
