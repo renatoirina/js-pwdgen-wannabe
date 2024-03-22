@@ -11,6 +11,7 @@ var casualNumber = Math.floor(Math.random() * 100);
 console.log ("Numero generato RANDOM: ", casualNumber);
 
 // OPERAZIONI LOGICHE
-
+var password = name + surname + favouriteColor + casualNumber;
+console.log("Password infallibile generata: ", password);
 
 // VISUALIZZAZIONE
