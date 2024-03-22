@@ -7,7 +7,8 @@ var favouriteColor = prompt("Inserisci il tuo colore preferito: ");
 console.log("Colore preferito inserito: ", favouriteColor);
 
 // GENERAZIONE NUMERO CASUALE
-
+var casualNumber = Math.floor(Math.random() * 100);
+console.log ("Numero generato RANDOM: ", casualNumber);
 
 // OPERAZIONI LOGICHE
 
